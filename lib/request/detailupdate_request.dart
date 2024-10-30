@@ -1,0 +1,103 @@
+// import 'package:flutter/foundation.dart';
+
+import 'dart:convert';
+
+MyDetailsUpdateRequest updateProfileRequestFromJson(String str) =>
+    MyDetailsUpdateRequest.fromJson(json.decode(str));
+
+String MyDetailsUpdateRequestToJson(MyDetailsUpdateRequest data) =>
+    json.encode(data.toJson());
+
+class MyDetailsUpdateRequest {
+  MyDetailsUpdateRequest({
+    this.gender,
+    this.address,
+    this.city,
+    this.province,
+    this.school,
+    this.college,
+    this.background,
+    this.contact,
+    this.parentFirstName,
+    this.parentLastName,
+    this.parentsEmail,
+    this.parentsContact,
+    this.maritalStatus,
+    this.bio,
+    this.coventryId,
+    this.registrationId,
+    this.institution,
+    this.panNumber,
+    this.pfNumber,
+    this.bankAccount,
+  });
+  String? gender;
+  String? address;
+  String? city;
+  String? province;
+  String? school;
+  String? college;
+  String? background;
+  String? contact;
+  String? parentFirstName;
+  String? parentLastName;
+  String? parentsEmail;
+  String? parentsContact;
+  String? maritalStatus;
+  String? bio;
+  String? coventryId;
+  String? registrationId;
+  String? institution;
+  String? panNumber;
+  String? pfNumber;
+  String? bankAccount;
+
+  factory MyDetailsUpdateRequest.fromJson(Map<String, dynamic> json) =>
+      MyDetailsUpdateRequest(
+        gender: json["gender"],
+        address: json["address"],
+        city: json["city"],
+        province: json["province"],
+        school: json["school"],
+        college: json["college"],
+        background: json["background"],
+        contact: json["contact"],
+        parentFirstName: json["parentFirstName"],
+        parentLastName: json["parentLastName"],
+        parentsEmail: json["parentsEmail"],
+        parentsContact: json["parentsContact"],
+        maritalStatus: json["maritalStatus"],
+        bio: json["bio"],
+        coventryId: json["coventryID"],
+        registrationId: json["registrationID"],
+        institution: json["institution"],
+        panNumber: json["pan_number"],
+        pfNumber: json["pf_number"],
+        bankAccount: json["bank_account"],
+      );
+
+  Map<String, dynamic> toJson() {
+    return {
+      "gender": gender,
+      "address": address,
+      "city": city,
+      "province": province,
+      "school": school,
+      "college": college,
+      "background": background,
+      "contact": contact,
+      "parentFirstName": parentFirstName,
+      "parentLastName": parentLastName,
+      "parentsEmail": parentsEmail,
+      "parentsContact": parentsContact,
+      "maritalStatus": maritalStatus,
+      "bio": bio,
+      "coventryID": coventryId,
+      "registrationID": registrationId,
+      "institution": institution,
+      "pan_number": panNumber,
+      "pf_number": pfNumber,
+      "bank_account": bankAccount,
+    };
+  }
+}

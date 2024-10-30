@@ -1,0 +1,179 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+
+android {
+    compileSdkVersion 34
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "np.edu.digitech.schoolworkspro"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+
+        multiDexEnabled true
+    }
+    flavorDimensions "app"
+    productFlavors {
+        Rhombus {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.rhombus"
+            versionCode 3
+            versionName "1.0"
+        }
+        Namuna {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.namuna"
+            versionCode 1
+            versionName "1.0"
+        }
+        Balkunja {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.balkunja"
+            versionCode 2
+            versionName "1.0"
+        }
+        NIST {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.nist"
+            versionCode 1
+            versionName "1.0"
+        }
+        GHS {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.ghs"
+            versionCode 1
+            versionName "1.0"
+        }
+        GBHS {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.guheshwari"
+            versionCode 1
+            versionName "1.0"
+        }
+        Janapremi {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.janapremi"
+            versionCode 2
+            versionName "1.0"
+        }
+        Kantipur {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.kantipur"
+            versionCode 1
+            versionName "1.0"
+        }
+        Nagarjuna {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.nagarjuna"
+            versionCode 1
+            versionName "1.0"
+        }
+        Mahottari {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.mahottari"
+            versionCode 1
+            versionName "1.0"
+        }
+        Mountview {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.mvebs"
+            versionCode 1
+            versionName "1.0"
+        }
+        Unique {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.uniques"
+            versionCode 1
+            versionName "1.0"
+        }
+        Himalayan {
+            dimension "app"
+            applicationId "np.edu.schoolworkspro.himalayan"
+            versionCode 1
+            versionName "1.0"
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:29.0.3')
+
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+    implementation 'com.google.firebase:firebase-messaging'
+
+    implementation 'com.android.support:multidex:1.0.3'
+}
+
+apply plugin: 'com.google.gms.google-services'

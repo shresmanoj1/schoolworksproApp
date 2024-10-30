@@ -1,0 +1,630 @@
+{
+  "project_info": {
+    "project_number": "673405683879",
+    "project_id": "campus4",
+    "storage_bucket": "campus4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:70de426655e65934ecf382",
+        "android_client_info": {
+          "package_name": "com.example.softwarica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:bd58def7ade80e0decf382",
+        "android_client_info": {
+          "package_name": "com.global.edu.campus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:89c5af6847135d56ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.digitech.schoolworkspro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-p9jl5cdji0eaoh7n26i8j3ckhakq4lgo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "np.edu.digitech.schoolworkspro",
+            "certificate_hash": "16429af78283a74ef6f5d8eb659da88041ec2368"
+          }
+        },
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:aad7996b2bf96027ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.digitech.schoolworksprolite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:60e667c7cdbacba4ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkslite.dss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:f11773c4e5de4b47ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkslite.sebs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:d022494492ab1079ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.balkunja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:8dc557a067fdd1d7ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.guheshwari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:04e88354e4bf906aecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.himalayan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:47750f28999e4d6aecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.janapremi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:4caddf1ce53521e0ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.kantipur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:541d67dc1a4ca6c1ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.mvebs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:e06b44806334cd55ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.nagarjuna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:1105581de522262fecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.namuna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:64cf025d14bd3c4fecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.rhombus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:0b58aaeebc3cb910ecf382",
+        "android_client_info": {
+          "package_name": "np.edu.schoolworkspro.uniques"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673405683879:android:54fd2781032bd41eecf382",
+        "android_client_info": {
+          "package_name": "np.edu.softwarica.campus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-AK38DAqGuwR7zLst0ivtSQAfVOOXRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673405683879-3npv305cb1e7iobe2hcedjlo09d3fa09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "673405683879-q4rk1l5mkn9ma7e7e4nern9sh5t990g6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "np.edu.digitech.schoolworkspro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
